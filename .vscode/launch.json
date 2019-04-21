@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Tests",
+            "request": "launch",
+            "mainClass": "app.solution.Tests",
+            "projectName": "seminar2",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Solution",
+            "request": "launch",
+            "mainClass": "app.solution.Main",
+            "projectName": "seminar2",
+            "args": [
+                "/home/matjazmav/Projects/A-S02/seminar2/inputs/1.txt"
+            ],
+            "console": "integratedTerminal"
+        }
+    ]
+}
