@@ -2,6 +2,17 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Fetcher",
+            "request": "launch",
+            "mainClass": "app.solution.Fetcher",
+            "projectName": "seminar2",
+            "args": [
+                "/home/matjazmav/Projects/seminar2/inputs/1.txt"
+            ],
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Tests",
             "request": "launch",
             "mainClass": "app.solution.Tests",
