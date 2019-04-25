@@ -8,7 +8,7 @@ clean:
 	rm -r out
 
 run: 
-	java -cp out Seminar2 inputs/1.txt
+	java -cp out Seminar2 $(input)
 
 packf:
 	mkdir -p out

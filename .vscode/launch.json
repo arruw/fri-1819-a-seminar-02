@@ -6,9 +6,6 @@
             "request": "launch",
             "mainClass": "app.solution.Fetcher",
             "projectName": "seminar2",
-            "args": [
-                "/home/matjazmav/Projects/seminar2/inputs/1.txt"
-            ],
             "console": "integratedTerminal"
         },
         {
@@ -17,6 +14,9 @@
             "request": "launch",
             "mainClass": "app.solution.Tests",
             "projectName": "seminar2",
+            "args": [
+                "/home/matjazmav/Projects/A-S02/inputs/tests/9.txt"
+            ],
             "console": "integratedTerminal"
         },
         {
@@ -26,7 +26,7 @@
             "mainClass": "app.solution.Main",
             "projectName": "seminar2",
             "args": [
-                "/home/matjazmav/Projects/A-S02/seminar2/inputs/1.txt"
+                "/home/matjazmav/Projects/A-S02/inputs/1.txt"
             ],
             "console": "integratedTerminal"
         }

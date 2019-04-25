@@ -36,15 +36,21 @@ public class Seminar2 {
 
 				if(start.x < 0 && 0 < end.x) {
 					result.add(new Line(start, end));
-					toRemove.add(start);
-					toRemove.add(end);
+					points.remove(start);
+					points.remove(end);
+					break;
+					// toRemove.add(start);
+					// toRemove.add(end);
 				} else if (start.x > 0 && 0 > end.x) {
 					result.add(new Line(end, start));
-					toRemove.add(start);
-					toRemove.add(end);
+					points.remove(start);
+					points.remove(end);
+					break;
+					// toRemove.add(start);
+					// toRemove.add(end);
 				}
 			}
-			points.removeAll(toRemove);
+			// points.removeAll(toRemove);
 
 		}
 

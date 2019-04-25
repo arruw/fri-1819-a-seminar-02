@@ -1,7 +1,7 @@
 #!/bin/bash
 
 function download {
-    wget -qO- $1 | awk '/<code>/,/<\/pre>/' | sed 's/[^0-9\,\.]//g'
+    wget -qO- $1 | awk '/<code>/,/<\/pre>/' | sed 's/[^0-9\,\.\-]//g'
 }
 
 declare -a data=(
@@ -60,6 +60,9 @@ declare -a data=(
 "https://pastebin.xyz/p?q=OXlkbE4"
 "https://pastebin.xyz/p?q=RnpVWXY"
 )
+
+rm -r inputs/tests/
+mkdir -p inputs/tests
 
 file=$((file+1))
 for i in "${data[@]}"
